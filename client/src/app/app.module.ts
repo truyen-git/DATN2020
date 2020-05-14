@@ -24,6 +24,7 @@ import { LogInComponent } from './main/user/login/login.component';
 import { SignUpComponent } from './main/user/signup/signup.component';
 import { UserComponent } from './main/user/user.component';
 import { UserProfileComponent } from './admin/user-profile/user-profile.component';
+import { UserprofileComponent } from './main/components/userprofile/userprofile.component';
 import { TableListComponent } from './admin/table-list/table-list.component';
 import { TypographyComponent } from './admin/typography/typography.component';
 import { IconsComponent } from './admin/icons/icons.component';
@@ -64,8 +65,8 @@ export function getAuthHttp(http: Http) {
     AppComponent,
     AdminLayoutComponent,
     HomeLayoutComponent,
-    SignUpComponent,
-    LogInComponent
+    /*SignUpComponent,
+    LogInComponent*/
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,

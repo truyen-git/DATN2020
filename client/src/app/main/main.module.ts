@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+/*import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MainRoutingModule } from './main-routing.module';
@@ -15,4 +15,4 @@ import { BodyComponent } from './components/body/body.component';
     MainRoutingModule
   ]
 })
-export class HomeModule { }
+export class HomeModule { }*/

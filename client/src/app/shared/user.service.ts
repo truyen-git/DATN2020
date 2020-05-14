@@ -36,7 +36,7 @@ export class UserService {
     return this.http.get(environment.apiBaseUrl + '/userProfile');
   }
 
-  requestReset(body): Observable<any> {
+  /*requestReset(body): Observable<any> {
     return this.http.post(environment.apiBaseUrl+'/req-reset-password', body);
   }
 
@@ -46,7 +46,7 @@ export class UserService {
 
   ValidPasswordToken(body): Observable<any> {
     return this.http.post(environment.apiBaseUrl+'/valid-password-token', body);
-  }
+  }*/
 
 
   //Helper Methods

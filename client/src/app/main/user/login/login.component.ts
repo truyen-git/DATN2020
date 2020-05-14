@@ -40,7 +40,7 @@ export class LogInComponent implements OnInit {
   fbLogin() {
     this.userfbService.fbLogin().then(() => {
       console.log('User has been logged in');
-      this.router.navigate(['/userprofile']);
+      this.router.navigate(['']);
     });  }
 
 }
